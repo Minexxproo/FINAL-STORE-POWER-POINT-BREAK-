@@ -28,12 +28,12 @@ from telegram.ext import (
 # ==========================
 
 # FILL THESE BEFORE RUNNING
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # <- your bot token
+BOT_TOKEN = "8222148122:AAHNqdFu6ZrHM8VuwksuXI4pAa4QQaFmlWo"  # <- your bot token
 
-ADMIN_IDS = [123456789]            # <- your admin numeric IDs
-ADMIN_USERNAME = "YourAdminUsername"
-SUPPORT_USERNAME = "YourSupportUsername"
-ADMIN_GROUP_ID = -1001234567890    # <- admin group/channel id (negative for group)
+ADMIN_IDS = [5692210187]            # <- your admin numeric IDs
+ADMIN_USERNAME = "MinexxProo"
+SUPPORT_USERNAME = "@MinexxProo"
+ADMIN_GROUP_ID = -1003373930001    # <- admin group/channel id (negative for group)
 
 DB_FILE = "database.json"
 BOT_NAME = "Power Point Break Premium Store"
