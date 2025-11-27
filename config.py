@@ -2,23 +2,23 @@ import os
 
 # এখানে সরাসরি token দিতে পারো,
 # বা hosting app এ ENV variable হিসেবেও সেট করতে পারো।
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PUT_YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8222148122:AAHOs5CZBsMwCVmO49F8UXTzZ1xBGTlRO6A")
 
 # Admin / super admin settings
-SUPER_ADMINS = {123456789}  # your own Telegram ID here
+SUPER_ADMINS = {5692210187}  # your own Telegram ID here
 ADMINS = {123456789}        # normal admins (SUPER_ADMINS এর বাইরেও হতে পারে)
 
 # Admin order notification group/channel ID (minus সহ)
-ADMIN_ORDER_CHAT_ID = -1001234567890  # change this
+ADMIN_ORDER_CHAT_ID = -1003373930001  # change this
 
 # Branding / text
 STORE_NAME = "POWER POINT BREAK PREMIUM STORE"
 HOSTED_BY = "@PowerPointBreak"
-SUPPORT_USERNAME = "@YourSupportUsername"
+SUPPORT_USERNAME = "@MinexxProo"
 ADMIN_SUPPORT_USERNAME = "@MinexxProo"
 
 # Order ID prefix
-ORDER_PREFIX = "CG-"
+ORDER_PREFIX = "PPBPS-"
 
 # bKash number
 BKASH_NUMBER = "01877576843"
