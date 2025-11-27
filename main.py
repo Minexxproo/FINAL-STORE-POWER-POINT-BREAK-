@@ -311,17 +311,18 @@ def handle_category_selection(message: Message):
     if not cat:
         bot.send_message(message.chat.id, "⚠ Invalid category.")
         return
+
     bot.send_message(
         message.chat.id,
-        f"🛍 CATEGORY: {cat['name']}",
-        reply_markup=None,
+        f"📂 CATEGORY: {cat['name']}",
     )
+
     bot.send_message(
         message.chat.id,
         "Choose a product:",
-        reply_markup=None,
         reply_markup=products_inline_kb(cat["id"]),
     )
+
 
 
 @bot.callback_query_handler(func=lambda c: c.data.startswith("product:"))
